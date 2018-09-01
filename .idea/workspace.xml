@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="355006da-ebe1-4c9a-8b76-1884ad9c93ba" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/rest/inventory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/build.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/play" beforeDir="false" afterPath="$PROJECT_DIR$/output/play" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/endpoint.go" beforeDir="false" afterPath="$PROJECT_DIR$/rest/endpoint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/.goreleaser.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/4d63.com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/github.com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/golang.org" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/honnef.co" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/mvdan.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/4d63.com/gochecknoglobals/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/4d63.com/gochecknoinits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/alecthomas/gocyclo/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/alexkohler/nakedret/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/client9/misspell/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/golang/lint/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/gordonklaus/ineffassign/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/jgautheron/goconst/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/kisielk/errcheck/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/kisielk/gotool/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/mdempsky/maligned/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/mdempsky/unconvert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/mibk/dupl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/mozilla/tls-observatory/constants/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/nbutton23/zxcvbn-go/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/opennota/check/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/ryanuber/go-glob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/securego/gosec/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/stretchr/objx/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/stripe/safesql/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/tsenart/deadcode/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/github.com/walle/lll/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/text/internal/gen/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/text/internal/triegen/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/text/internal/ucd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/text/transform/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/text/unicode/cldr/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/text/width/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/cmd/goimports/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/cmd/gotype/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/container/intsets/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/ast/astutil/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/buildutil/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/callgraph/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/gcexportdata/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/gcimporter15/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/loader/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/pointer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/ssa/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/go/types/typeutil/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/imports/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/golang.org/x/tools/refactor/importgraph/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/gopkg.in/yaml.v2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/honnef.co/go/tools/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/mvdan.cc/interfacer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/mvdan.cc/lint/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/_linters/src/mvdan.cc/unparam/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/aggregate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/checkstyle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/directives.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/execute.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/issue.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/issue_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/linters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/partition.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/gometalinter/stringset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/units/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/units/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/units/bytes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/units/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/units/si.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/alecthomas/units/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/google/shlex/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/google/shlex/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/google/shlex/shlex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/bundle/bundle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/i18n.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/language/language.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/language/operands.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/language/plural.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/language/pluralspec.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/language/pluralspec_gen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/translation/plural_translation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/translation/single_translation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/translation/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/nicksnyder/go-i18n/i18n/translation/translation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/benchmark.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/benchmark.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/benchmark.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/benchmark.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/example-crlf.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/example.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/fuzz.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/fuzz.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/keysparsing.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/lexer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/marshal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/marshal_test.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/position.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/token.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/toml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/tomltree_create.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/tomltree_write.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/.gometalinter.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/actions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/args.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/camelcase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/clause.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/cmd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/completions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/flags.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/global.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/guesswidth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/guesswidth_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/i18n_en_AU.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/i18n_fr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/i18n_init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/struct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/templates.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/usage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/values.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/values.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/alecthomas/kingpin.v3-unstable/values_generated.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE.libyaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/apic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/emitterc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/parserc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/scannerc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/writerc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yaml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlh.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlprivateh.go" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#14#145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inventory.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rest/inventory.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="endpoint.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/endpoint.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#14#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GO_PKG</find>
+      <find>GC_FLAGS</find>
+      <find>header</find>
+      <find>first page</find>
+      <find>updatedeal</find>
+      <find>foo</find>
+      <find>sort</find>
+      <find>github.com/dat</find>
+      <find>github.com/alecthomas/gometalinter</find>
+      <find>Console-API</find>
+      <find>github.com/dailymotion-leo/Console-API</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gometalinter-config.json" />
+        <option value="$PROJECT_DIR$/rest/get_handler.go" />
+        <option value="$PROJECT_DIR$/rest/publisher.go" />
+        <option value="$PROJECT_DIR$/../dailymotion-leo/Console-API/test/integration/deal_test.go" />
+        <option value="$PROJECT_DIR$/service/card.go" />
+        <option value="$PROJECT_DIR$/game/card.go" />
+        <option value="$PROJECT_DIR$/game/player.go" />
+        <option value="$PROJECT_DIR$/game/board.go" />
+        <option value="$PROJECT_DIR$/movie.go" />
+        <option value="$PROJECT_DIR$/api/build/build.go" />
+        <option value="$PROJECT_DIR$/rest/options.go" />
+        <option value="$PROJECT_DIR$/dao/generic.go" />
+        <option value="$PROJECT_DIR$/api/version.go" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/rest/endpoint.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/rest/inventory.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="920" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="play" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="play" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="personal/play" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="920" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.47038725" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9187879" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/vendor/gopkg.in/mgutz/dat.v2/sqlx-runner/tx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5325">
+          <caret line="368" column="5" selection-start-line="368" selection-start-column="5" selection-end-line="368" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/generic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/dao/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding>
+            <element signature="e#13#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/vendor/gopkg.in/mgutz/dat.v2/sqlx-runner/tx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/database/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dat/where.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gometalinter-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gorilla/mux/mux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dat/where.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/database/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/vendor/gopkg.in/mgutz/dat.v2/sqlx-runner/tx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/dao/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding>
+            <element signature="e#13#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/get_handler.go" />
+    <entry file="file://$PROJECT_DIR$/rest/publisher.go" />
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/encoding/json/stream.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/net/http/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11550">
+          <caret line="791" column="5" selection-start-line="791" selection-start-column="5" selection-end-line="791" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/test/integration/deal_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19155">
+          <caret line="1299" column="1" selection-start-line="1299" selection-start-column="1" selection-end-line="1299" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/validation/deal_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/math/rand/rand.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4845">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/database/sql/sql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7410">
+          <caret line="507" column="17" selection-start-line="507" selection-start-column="17" selection-end-line="507" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/models/deal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/models/device_type.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/models/ad_category.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/generic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dailymotion-leo/Console-API/models/adconfig_metadata.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/version.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build/build.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/card.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/player.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#14#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="2444" column="5" selection-start-line="2444" selection-start-column="5" selection-end-line="2444" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="630" column="5" selection-start-line="630" selection-start-column="5" selection-end-line="630" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aerospike/aerospike-client-go/logger/logger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/endpoint.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#14#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/inventory.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

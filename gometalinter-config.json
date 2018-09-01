@@ -1,0 +1,37 @@
+{
+  "Linters": {
+    "vet": {
+      "Command": "go vet -tags=integration,e2e -no-recurse -all"
+    },
+    "structcheck": {
+      "Command": "structcheck -tags=integration,e2e {tests=-t}"
+    },
+    "megacheck": {
+      "Command": "megacheck -tags='integration e2e' -unused.exported"
+    }
+  },
+  "DisableAll": true,
+  "Enable": [
+    "vet",
+    "gofmt",
+    "goimports",
+    "varcheck",
+    "structcheck",
+    "ineffassign",
+    "unconvert",
+    "misspell",
+    "unparam",
+    "megacheck"
+  ],
+  "Skip": [
+    ".git",
+    "apidoc",
+    "docker",
+    "output",
+    "vendor"
+  ],
+  "Vendor": true,
+  "Test": true,
+  "Aggregate": true,
+  "Deadline": "5m"
+}
